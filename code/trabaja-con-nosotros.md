@@ -17,7 +17,7 @@ En este momento, tenemos las siguientes vacantes:
 
 - **Diseñador Gráfico** 🎨: Necesitamos un diseñador para crear imágenes atractivas y profesionales. Requisitos: experiencia en diseño gráfico, manejo de herramientas como Adobe Photoshop o Illustrator, y un portafolio con trabajos previos.
 
-- **Community Manager** 📱: Se busca un experto en redes sociales para gestionar y mejorar la presencia online de nuestra marca. Requisitos: experiencia en plataformas como Instagram, Facebook y Twitter, habilidades de comunicación y estrategia digital.
+- **Community Manager** 📱: Se busca un experto en redes sociales para gestionar y mejorar la presencia online de nuestra marca. Requisitos: experiencia en plataformas como Instagram, Facebook y Tiktok, habilidades de comunicación y estrategia digital.
 
 - **Desarrollador Web** 💻: Necesitamos un desarrollador para crear y mantener nuestras páginas web. Requisitos: experiencia con tecnologías web como HTML, CSS, JavaScript y frameworks como React o Vue.js.
 
