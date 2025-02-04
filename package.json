@@ -6,7 +6,7 @@
     "install": "npm install @11ty/eleventy --save-dev",
     "start": "npx @11ty/eleventy --serve --port=7777",
     "clean": "rm -rf docs",
-    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/subdirectory"
+    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/lohapgr.github.io"
   },
   "keywords": [],
   "author": "",
