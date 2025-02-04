@@ -144,10 +144,10 @@ main section {
         grid-template-columns: 1fr;
     }
     .producto {
-        max-width: 90%; /* Para que no ocupe toda la pantalla */
+        max-width: 97%; /* Para que no ocupe toda la pantalla */
     }
     .producto .img-container {
-        height: 250px;
+        height: 330px;
     }
 }
 
