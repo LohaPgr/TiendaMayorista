@@ -1,0 +1,31 @@
+---
+layout: layout-page.njk
+title: Página de inicio
+descripcion: Pagina de ropa para damas
+---
+
+{% include "header.njk" %}
+<div class="productos" id="productos">
+    {% for producto in productos %}
+        <div class="producto" data-categoria="{{ producto.categoria }}" data-nombre="{{ producto.nombre | lower }}">
+            <div class="img-container">
+                <img src="{{ producto.imagen }}" alt="{{ producto.nombre }}">
+            </div>
+                <div class="detalle-prod">
+                    <h2>{{ producto.nombre }}</h2>
+                    <p>{{ producto.descripcion }}</p>
+                    <p>
+                        <strong>S/ {{ producto.precio - producto.precio * (producto.descuento / 100) }}</strong>
+                    </p>
+                    <div class="enlaces">
+                        <a href="productos/{{ producto.id }}/" class="boton">Ver Producto</a>
+                        {# <a
+                                                                            href="https://wa.me/51981108999?text=Quiero mas información sobre {{ producto.nombre | urlencode }}"
+                                                                            class="boton"
+                                                                            target="_blank"
+                                                                            rel="noopener noreferrer">Comprar por WhatsApp</a> #}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>

@@ -1,0 +1,84 @@
+---
+layout: layout-page.njk
+pagination:
+  data: productos
+  size: 1
+  alias: producto
+permalink: "productos/{{ producto.id }}/index.html"
+---
+
+<div class="producto-detalle">
+    <!-- Galería de Imágenes -->
+    <div class="galeria-container">
+        <div class="miniaturas">
+            {% for imagen in producto.imagenes %}
+                <img class="miniatura" src="{{ imagen }}" alt="Vista de {{ producto.nombre }}" onclick="cambiarImagen('{{ imagen }}')">
+            {% endfor %}
+        </div>
+        <div class="imagen-principal">
+            <img id="imagenGrande" src="{{ producto.imagen }}" alt="{{ producto.nombre }}">
+        </div>
+    </div>
+
+    <!-- Información del Producto -->
+    <div class="info-container">
+        <!-- Nombre del Producto -->
+        <h1>{{ producto.nombre }}</h1>
+
+        <!-- Calificación y ventas -->
+        <div class="rating">
+            <span class="estrellas">⭐️⭐️⭐️⭐️☆</span>
+        </div>
+
+        <!-- Descripción -->
+        <p class="descripcion">{{ producto.descripcion }}</p>
+
+        <!-- Etiqueta de Más Vendidos -->
+        {# <p class="mas-vendidos">🔥 #{{ producto.ranking }} entre los más vendidos</p> #}
+
+        <!-- Precio con descuento -->
+        <p class="precio">
+            <span class="precio-descuento">S/ {{ producto.precio - producto.precio * (producto.descuento / 100) }}</span>
+            <span class="precio-original">S/ {{ producto.precio }}</span>
+            <span class="descuento">-{{ producto.descuento }}%</span>
+        </p>
+
+        <!-- Envío Gratis -->
+        <p class="envio-gratis">🚚 Envío gratis</p>
+
+        <!-- Colores disponibles -->
+        <div class="colores">
+            <strong>Colores disponibles:</strong>
+            <div class="color-options">
+                {% for color in producto.colores %}
+                    <div class="color-option">
+                        <span>{{ color }}</span>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Selección de Tallas -->
+        <div class="tallas">
+            <strong>Tallas:</strong>
+            <div class="talla-options">
+                <button class="talla">S</button>
+                <button class="talla">M</button>
+                <button class="talla">L</button>
+                <button class="talla">XL</button>
+            </div>
+        </div>
+
+        <!-- Botón de Compra -->
+        <div class="botones">
+            <a href="https://wa.me/51981108999?text=Quiero comprar {{ producto.nombre | urlencode }}" class="boton" target="_blank" rel="noopener noreferrer">Comprar por WhatsApp</a>
+			<a href="/" class="boton"> Volver a la tienda </a>
+        </div>
+    </div>
+</div>
+
+<script>
+    function cambiarImagen(imagen) {
+        document.getElementById("imagenGrande").src = imagen;
+    }
+</script>

@@ -1,0 +1,172 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+	  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  body {
+	  display: flex;
+	  flex-direction: column;
+	  height: 100vh;
+  }
+  main {
+	  flex-grow: 1;
+  }
+  header {
+	padding: 12px;
+	background-color: pink;
+	text-align: center;
+  }
+  h1 a {
+	font-weight: 500;
+	color: brown;
+	text-decoration: none;
+  }
+
+  /* Estilos Generales */
+  body{
+	background-color: #f4f4f9;
+  }
+main {
+	font-family: 'Arial', sans-serif;
+	padding: 20px;
+	/* background-color: #f4f4f9; */
+	/* border-radius: 8px; */
+	/* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+	text-align: start;
+	max-width: 1000px;
+	margin: 20px auto;
+  }
+  li {
+	list-style: none;
+  }
+  h2 {
+	font-size: 2rem;
+	color: #333;
+	margin-bottom: 1rem;
+  }
+  
+  h3 {
+	font-size: 1.5rem;
+	color: #5f6368;
+	margin: 1rem 0;
+	display: flex;
+	align-items: center;
+  }
+  
+  p {
+	font-size: 1rem;
+	color: #555;
+	line-height: 1.6;
+  }
+  
+  /* Estilos del Enlace de WhatsApp */
+  a {
+	color: #25D366;
+	text-decoration: none;
+	font-weight: bold;
+  }
+  
+  
+  /* Estilos del Botón "Volver a la tienda" */
+  hr {
+	margin-top: 2rem;
+	border: 0;
+	border-top: 1px solid #ddd;
+  }
+  
+  p a {
+	display: inline-block;
+	background-color: #4CAF50;
+	padding: 10px 20px;
+	color: white;
+	font-weight: bold;
+	border-radius: 4px;
+	text-decoration: none;
+	margin-top: 10px;
+  }
+  
+  p a:hover {
+	background-color: #45a049;
+  }
+  
+  /* ESTILOS PARA EL FOOTER */
+  footer {
+	  background-color: #111;
+	  color: #fff;
+	  padding: 50px 20px;
+	  width: 100%;
+	  margin-top: 40px;
+	  font-size: 14px;
+  }
+  .footer-container {
+	  max-width: 1200px;
+	  margin: auto;
+  }
+  .footer-links {
+	  display: flex;
+	  justify-content: space-between;
+	  flex-wrap: wrap;
+	  gap: 30px;
+  }
+  
+  .footer-links h5 {
+	  font-size: 18px;
+	  font-weight: 700;
+	  margin-bottom: 12px;
+	  color: #f1c40f;
+  }
+  .footer-links ul {
+	  list-style: none;
+	  padding: 0;
+  }
+  
+  .footer-links ul li {
+	  margin-bottom: 8px;
+  }
+  
+  .footer-links ul li a {
+	  text-decoration: none;
+	  color: #ddd;
+	  transition: color 0.3s ease;
+  }
+  
+  .footer-links ul li a:hover {
+	  color: #f1c40f;
+  }
+  
+  .social-media {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  gap: 15px;
+  }
+  
+  .social-media a {
+	  display: inline-block;
+	  transition: transform 0.3s ease;
+  }
+  
+  .social-media img {
+	  width: 40px;
+	  height: 40px;
+  }
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+	  .footer-links {
+		  flex-direction: column;
+		  text-align: center;
+		  gap: 25px;
+	  }
+  
+	  .social-media {
+		  flex-direction: row;
+		  justify-content: center;
+	  }
+  
+	  .social-media img {
+		  width: 35px;
+		  height: 35px;
+	  }
+  }

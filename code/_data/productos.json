@@ -1,0 +1,77 @@
+[
+  {
+    "id": "1",
+    "nombre": "Camiseta Azul",
+    "descripcion": "Camiseta de algodón 100%.",
+    "precio": 20.0,
+    "imagen": "/img/camiseta1-1.jpg",
+    "imagenes": [
+      "/img/camiseta1-1.jpg",
+      "/img/camiseta1-2.jpg",
+      "/img/camiseta1-3.jpg"
+    ],
+    "categoria": "camisetas",
+    "nombre_categoria": "Polos para Mujer",
+    "descripcion_Cat": "Ropa cómoda y casual para el día a día.",
+    "imagen_Cat": "imagen.jpg",
+    "fecha": "2025-01-15",
+    "colores": ["lila", "negro", "blanco", "marphil", "rojo", "bahia", "cemento", "rosado", "palorosa", "pera"],
+    "fecha_modificacion": "2025-01-10",
+    "estado": "activo",
+    "etiquetas": ["básico", "polo", "mujer"],
+    "marca": "Marca XYZ",
+    "materiales": ["algodón", "poliéster"],
+    "valoraciones": 4.5,
+	"descuento": 20
+  },
+  {
+    "id": "2",
+    "nombre": "Camiseta Negra",
+    "descripcion": "Camiseta de algodón 100%.",
+    "precio": 20.0,
+    "imagen": "/img/camiseta1-1.jpg",
+    "imagenes": [
+      "/img/camiseta1-1.jpg",
+      "/img/camiseta1-2.jpg",
+      "/img/camiseta1-3.jpg"
+    ],
+    "categoria": "camisetas",
+    "nombre_categoria": "Polos para Mujer",
+    "descripcion_Cat": "Ropa cómoda y casual para el día a día.",
+    "imagen_Cat": "imagen.jpg",
+    "fecha": "2025-01-15",
+    "colores": ["lila", "negro", "blanco", "marphil", "rojo", "bahia", "cemento", "rosado", "palorosa", "pera"],
+    "fecha_modificacion": "2025-01-10",
+    "estado": "activo",
+    "etiquetas": ["básico", "polo", "mujer"],
+    "marca": "Marca XYZ",
+    "materiales": ["algodón", "poliéster"],
+    "valoraciones": 4.5,
+	"descuento": 50
+  },
+  {
+    "id": "3",
+    "nombre": "Camiseta Negra",
+    "descripcion": "Camiseta de algodón 100%.",
+    "precio": 20.0,
+    "imagen": "/img/camiseta1-1.jpg",
+    "imagenes": [
+      "/img/camiseta1-1.jpg",
+      "/img/camiseta1-2.jpg",
+      "/img/camiseta1-3.jpg"
+    ],
+    "categoria": "blusas",
+    "nombre_categoria": "Polos para Mujer",
+    "descripcion_Cat": "Ropa cómoda y casual para el día a día.",
+    "imagen_Cat": "imagen.jpg",
+    "fecha": "2025-01-15",
+    "colores": ["lila", "negro", "blanco", "marphil", "rojo", "bahia", "cemento", "rosado", "palorosa", "pera"],
+    "fecha_modificacion": "2025-01-10",
+    "estado": "activo",
+    "etiquetas": ["básico", "polo", "mujer"],
+    "marca": "Marca XYZ",
+    "materiales": ["algodón", "poliéster"],
+    "valoraciones": 4.5,
+	"descuento": 10
+  }
+]
